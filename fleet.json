@@ -1,1 +1,12 @@
 
+{
+  "revision": 4,
+  "directory": [
+    "https://devices.anubis.locker/fleet.json",
+    "https://raw.githubusercontent.com/Anubis-Security-Tool/fleet-config/main/fleet.json"
+  ],
+  "gateways": [
+    { "id": "vps1", "primary": "devices-anubis.pw", "backup": "devices-anubis.online", "weight": 1 },
+    { "id": "vps2", "primary": "devices-anubis.pro", "backup": "devices-anubis.space", "weight": 1 }
+  ]
+}
